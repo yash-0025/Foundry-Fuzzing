@@ -3,4 +3,10 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+
+runs = 256
+shrinking = true
+max_depth = 10
+gas_limit = 12_000_000
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
